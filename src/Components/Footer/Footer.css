@@ -1,0 +1,242 @@
+.Statistics-con {
+    min-height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../Images//Cover.jpg');
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 77px 12% 40px;
+
+}
+
+.box__h img {
+    width: 100%;
+}
+
+.box__h {
+    width: 50%;
+}
+
+.box__h1 {
+    width: 50%;
+}
+
+.box__h h1 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 80px;
+    color: #ffffff;
+}
+
+.box__h p {
+    color: white;
+    padding: 18px 0px 18px;
+}
+
+.box__h span {
+    color: #7E90FE;
+}
+
+.all__button {
+    padding: 19px 28px;
+    width: 172px;
+    height: 65px;
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+    border-radius: 8px;
+    color: white;
+}
+
+.all__button:hover {
+    background-color: transparent !important;
+    border: 1px solid #9873FF;
+    transition: all.2s linear;
+}
+
+/* job__catagory */
+.job__catagory {
+    width: 100%;
+    margin: 60px 0px;
+}
+
+.job__catagory h2 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 66px;
+    color: #1A1919;
+    text-align: center;
+}
+
+.job__catagory p {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #757575;
+}
+
+.all-catagory {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.all-catagory .box_Catagory {
+    width: 24%;
+    height: 243px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 43px;
+    line-height: 37px;
+}
+
+@media (min-width: 0px) and (max-width: 600px) {
+    .box_Catagory {
+        width: 100% !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        line-height: 59px !important;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1200px) {
+    .box_Catagory {
+        width: 50% !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        line-height: 59px !important;
+    }
+}
+
+.box_Catagory img {
+    width: 40px;
+    height: 40px;
+}
+
+.box_Catagory h5 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 27px;
+    color: #474747;
+}
+
+.box_Catagory {
+    width: 24%;
+    height: 243px;
+    background: linear-gradient(90deg, rgba(126, 144, 254, 0.05) 0%, rgba(152, 115, 255, 0.05) 100%);
+    border-radius: 8px;
+
+}
+
+.box_Catagory:hover {
+    width: 24%;
+    height: 243px;
+    background: linear-gradient(90deg, rgba(126, 144, 254, 0.05) 0%, rgba(152, 115, 255, 0.05) 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    transition: all .3s linear;
+}
+
+/* future-job */
+.future-job {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 1rem;
+}
+
+/* footer */
+.See__all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 174px;
+    height: 58px;
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+    margin: 21px 0px;
+    border-radius: 5px;
+    color: white;
+
+}
+
+/* footer */
+
+.footer-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #1A1919;
+    color: white;
+    padding: 20px 12%;
+    width: 100%;
+    min-height: 30vh;
+}
+
+.footer-box {
+    width: 20%;
+    padding: 10px;
+}
+
+.footer-box h1 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 44px;
+}
+
+.footer-box p {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.footer-box h2 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+ul{
+    line-height: 30px;
+}
+.f-t{
+    background-color: #1A1919;
+    color: white;
+}
+.hr{
+   border-bottom: 2px solid white;
+    background-color: #1A1919;
+    
+}
+.footer-section i{
+   font-size: 32px;
+}

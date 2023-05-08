@@ -1,0 +1,35 @@
+.box {
+    width: 30% !important;
+}
+
+.recipe-card {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card-header img{
+    width: 150px !important;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.recipy-section{
+    padding-top: 60px;
+}
+.card-text{
+    font-size: 14px;
+}
+
+@media (min-width: 0px) and (max-width: 700px) {
+    .box {
+        width: 100% !important;
+    }
+}
+@media (min-width: 701px) and (max-width: 1000px) {
+    .box {
+        width: 50% !important;
+    }
+}
